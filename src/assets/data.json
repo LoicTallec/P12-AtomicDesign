@@ -3,7 +3,7 @@
         {
             "id": "1",
             "name": "Riding Cities",
-            "cover": "",
+            "cover": "./assets/images/ridingcities/ridingcities.webp",
             "picture": "",
             "mission" : "Actualiser la page Internet de Riding Cities de la façon suivante : Créer une nouvelle section, “Les membres fondateurs”, avec les noms et photos des créateurs de l’association. Modifier la section comprenant le bouton “Télécharger le planning de cours” pour ajouter un titre et deux boutons permettant de télécharger deux plannings de cours différents (un pour les enfants et un pour les adultes).",
             "info-code": "Il n’y a que du code HTML à développer. Le code existant contient des lignes qui pourront être réutilisées et adaptées pour obtenir le résultat de la maquette. Le code CSS est déjà en place : je devais copier-coller les classes CSS déjà écrites pour ordonner et mettre en forme les éléments comme sur la maquette.",
@@ -12,6 +12,7 @@
         {
             "id": "2",
             "name": "Booki",
+            "cover": "./images/booki/booki.webp",
             "picture": "",
             "mission":"",
             "info-code":"",
@@ -20,6 +21,7 @@
         {
             "id": "3",
             "name": "ohMyFood",
+            "cover": "./images/ohmyfood/ohmyfood.webp",
             "picture": "",
             "mission":"",
             "info-code":"",
@@ -28,6 +30,7 @@
         {
             "id": "4",
             "name": "print it",
+            "cover": "./images/printit/printit.webp",
             "picture": "",
             "mission":"",
             "info-code":"",
@@ -36,6 +39,7 @@
         {
             "id": "5",
             "name": "Sophie Bluel Architecte",
+            "cover": "./images/sophiebluel/sophiebluel.webp",
             "picture": "",
             "mission":"",
             "info-code":"",
@@ -44,6 +48,7 @@
         {
             "id": "6",
             "name": "Kasa",
+            "cover": "./images/kasa/kasa.webp",
             "picture": "",
             "mission":"",
             "info-code":"",
@@ -52,6 +57,7 @@
         {
             "id": "7",
             "name": "Nina Carducci",
+            "cover": "./images/ninacarducci/ninacarducci.webp",
             "picture": "",
             "mission":"",
             "info-code":"",
@@ -60,6 +66,7 @@
         {
             "id": "8",
             "name": "724 Event",
+            "cover": "./images/724event/724event.webp",
             "picture": "",
             "mission":"",
             "info-code":"",
@@ -68,6 +75,7 @@
         {
             "id": "9",
             "name": "Argent Bank",
+            "cover": "./images/argentbank/argentbank.webp",
             "picture": "",
             "mission":"",
             "info-code":"",
