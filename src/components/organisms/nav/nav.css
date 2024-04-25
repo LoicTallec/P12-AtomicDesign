@@ -1,11 +1,19 @@
 nav {
-
+    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    padding: 20px 15px;
+    padding: 20px 0;
+    top: 0;
     margin: auto;
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(44, 117, 116);
+    z-index: 2;
+}
+
+@media (min-width: 768px) {
+    nav {
+        padding: 20px 20px;
+    }
 }

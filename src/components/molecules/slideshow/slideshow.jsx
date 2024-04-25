@@ -3,10 +3,9 @@ import './slideshow.css';
 import React from 'react';
 import { projets } from '../../../assets/data.json'; 
 
-console.log(projets);
 const Slideshow = () => {
     return (
-        <div className="slideshow">
+        <section className="slideshow">
             {projets.map((projet) => (
                 <Card 
                     key={projet.id} 
@@ -14,7 +13,7 @@ const Slideshow = () => {
                     picture={projet.cover} 
                 />
             ))}
-        </div>
+        </section>
     );
 };  
 
