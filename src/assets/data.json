@@ -8,11 +8,16 @@
         },
         {
             "id": "1",
+            "content": "VisuArt",
+            "url": "#about"
+        },
+        {
+            "id": "2",
             "content": "Projets",
             "url": "#projets"
         },
         {
-            "id": "2",
+            "id": "3",
             "content": "Contact",
             "url": "#contact"
         }
@@ -21,11 +26,58 @@
     "about" : {
         "title": "VisuArt",
         "header": "Développeur & Graphiste indépendent",
-        "text":"Passionner par le développement web, graphisme et plus globalement internet. Je vous propose un service All-in-One. Je peux vous accompagner de la création de votre logo en passant par votre chartre graphique, maquettes de votre site web, de sa création, sa mise en ligne et son entretien.",
+        "text":"Je m'appel Loïc. Je suis passionner par le développement web, le graphisme et plus globalement internet. Je vous propose un service All-in-One. Je peux vous accompagner de la création de votre logo en passant par votre chartre graphique, maquettes de votre site web, de sa création, sa mise en ligne et son entretien.",
         "logo": "./src/assets/images/logovisuart.webp",
         "setup": "./src/assets/images/setup.webp",
-        "picture": "./src/assets/images/me.webp"
+        "picture": "./src/assets/images/me.webp",
+        "about": "Qui suis-je ?"
     },
+
+    "skills": [
+        {
+            "title": "Mes compétences"
+        },
+        {
+            "name": "HTML",
+            "icon": "html5",
+            "cat": "brands"
+        },
+        {
+            "name": "CSS",
+            "icon": "css3-alt",
+            "cat": "brands"
+        },
+        {
+            "name": "JavaScript",
+            "icon": "js",
+            "cat": "brands"
+        },
+        {
+            "name": "React",
+            "icon": "react",
+            "cat": "brands"
+        },
+        {
+            "name": "SEO",
+            "icon": "searchengin",
+            "cat": "brands"
+        },
+        {
+            "name": "PhotoShop",
+            "icon": "image",
+            "cat": "solid"
+        },
+        {
+            "name": "Illustrator",
+            "icon": "images",
+            "cat": "solid"
+        },
+        {
+            "name": "After Effect",
+            "icon": "photo-film",
+            "cat": "solid"
+        }   
+    ],
     
     "projets": [
         {

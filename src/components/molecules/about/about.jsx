@@ -1,9 +1,13 @@
 import React from "react";
 import "./about.css";
-const About = ({ logo, setup, picture, title, header, text }) => {
+const About = ({ logo, setup, picture, title, header, text, about }) => {
     return (
         <section className="about">
-            <img className="setup" src={setup} alt="Setup de Loïc Tallec" />
+            <img 
+                className="setup" 
+                src={setup} 
+                alt="Setup de Loïc Tallec"
+            />
             <figure className="about-header">
                 <img 
                     className="head" 
@@ -12,9 +16,12 @@ const About = ({ logo, setup, picture, title, header, text }) => {
                 />
                 <figcaption>{header}</figcaption>
             </figure>
+
             <figure className="descrition">
-                <figcaption>{text}</figcaption>
+                <h1>{about}</h1>
                 <img src={picture} alt="Loïc Tallec" />
+                <figcaption>{text}</figcaption>
+                
             </figure>
         </section>
     );

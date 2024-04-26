@@ -1,16 +1,21 @@
 .about {
+    position: relative;
     display: flex;
     flex-direction: column;
     margin-top: 90px;
-    padding-bottom: 30px;
     background-color:rgb(249, 247, 232);
 
 
     .setup { 
-        display: none;
+        height: 300px;
+        object-fit: cover;
     }
 
     .about-header {
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%) translateY(-40%);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -20,45 +25,73 @@
         img {
             width: 150px;
         }
+
+        figcaption {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: rgb(255, 255, 255);
+            padding: 0 15px;
+            border-radius: 5px;
+        }
+
+        
+    }
+
+    h1 {
+        margin-bottom: 0;
     }
     
     .descrition {
-        display: flex;  
+        display: flex; 
         flex-direction: column; 
+        justify-content: center;
         gap: 30px;
         padding: 0 30px;
-        margin: auto;
+        margin:0 auto 50px auto;
         align-items: center;
 
-        figcaption {
-            max-width: 450px;
-        }
 
         img {
             border: 3px solid rgb(44, 117, 116);
             border-radius: 50%;
             max-width: 170px;
         }
+
+        h1 {
+            text-align: center;
+            width: 100%;
+            font-size: 35px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .about {
+        .descrition {
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            figcaption {
+                max-width: 470px;
+            }
+        }
     }
 }
 
 @media (min-width: 1024px) {
     .about {
-        position: relative;
+        
         margin: auto;
         padding-top: 90px;
         
         .setup {
             display: block;
             height: 900px;
-            object-fit: cover;
+            
         }
 
         .about-header{
             position: absolute;
-            top: 33%;
-            left: 50%;
-            transform: translateX(-45%) translateY(-50%);
+            top: 430px;
             max-width: 900px;
 
             .head {
@@ -67,11 +100,11 @@
 
             figcaption {
                 font-size: 45px;
-                background-color: rgba(255, 255, 255, 0.5);
-                color: rgb(0, 0, 0);
-                padding: 0 15px;
-                border-radius: 5px;
             }
+        }
+
+        .descrition {
+            margin: 30px auto;
         }
     }
 }
