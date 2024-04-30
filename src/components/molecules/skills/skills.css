@@ -9,10 +9,21 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 40px;
+        gap: 30px;
         margin: auto;
         padding: 20px;
-        max-width: 500px;
-    }
+        max-width: 480px;
 
+        li {
+            width: 95px;
+        }
+    }
 }
+
+ @media (min-width: 1024px) {
+    .skills {
+        ul{
+            max-width: 1000px;
+        }
+    }
+ }

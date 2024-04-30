@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 const About = ({ logo, setup, picture, title, header, text, about }) => {
     return (
-        <section className="about">
+        <section id="home" className="about">
             <img 
                 className="setup" 
                 src={setup} 
@@ -14,10 +14,10 @@ const About = ({ logo, setup, picture, title, header, text, about }) => {
                     src={logo} 
                     alt={title} 
                 />
-                <figcaption>{header}</figcaption>
+                <figcaption  id="about">{header}</figcaption>
             </figure>
 
-            <figure className="descrition">
+            <figure  className="descrition">
                 <h1>{about}</h1>
                 <img src={picture} alt="Loïc Tallec" />
                 <figcaption>{text}</figcaption>

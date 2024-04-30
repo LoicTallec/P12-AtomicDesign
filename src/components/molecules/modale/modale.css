@@ -1,0 +1,25 @@
+.modal {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.95);
+    box-sizing: border-box;
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: auto;
+    height: 98%;
+
+    .modale-slide {
+        
+        
+       
+    }
+}
+
+
