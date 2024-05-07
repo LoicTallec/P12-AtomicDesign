@@ -2,9 +2,10 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
-    background-color:rgb(249, 247, 232);
-
+    margin-top: 75px;
+    background-color:rgb(253, 250, 233);;
+    border-radius: 40px;
+    max-width: 1500px;
 
     .setup { 
         height: 300px;
@@ -15,7 +16,7 @@
         position: absolute;
         top: 80px;
         left: 50%;
-        transform: translateX(-50%) translateY(-40%);
+        transform: translateX(-47.5%) translateY(-40%);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -82,17 +83,16 @@
     .about {
         
         margin: auto;
-        padding-top: 90px;
+        padding-top: 75px;
         
         .setup {
             display: block;
-            height: 900px;
-            
+            height: 700px;
         }
 
         .about-header{
             position: absolute;
-            top: 430px;
+            top: 350px;
             max-width: 900px;
 
             .head {
@@ -100,7 +100,7 @@
             }
 
             figcaption {
-                font-size: 45px;
+                font-size: 35px;
             }
         }
 

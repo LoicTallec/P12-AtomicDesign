@@ -1,0 +1,11 @@
+.portfolio {
+    padding: 40px 40px;
+    background-color: rgb(253, 250, 233);
+    max-width: 1420px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 40px;
+}
+

@@ -25,7 +25,7 @@
 
     "about" : {
         "title": "VisuArt",
-        "header": "Développeur & Graphiste indépendent",
+        "header": "Développeur Web  & Graphiste indépendent",
         "text":"Je m'appelle Loïc. J'ai suivi une formation d'intégrateur web chez OpenClassRooms. Je suis passionné par le développement web, le graphisme et plus globalement par le Web. Je vous propose un service All-in-One : je peux vous accompagner de la création de votre logo en passant par votre chartre graphique, des maquettes de votre site web, de sa création, à sa mise en ligne et son entretien.",
         "logo": "./src/assets/images/logovisuart.webp",
         "setup": "./src/assets/images/setup.webp",
@@ -89,6 +89,7 @@
     "projets": [
         {
             "id": "1",
+            "type": "dev",
             "skills" : [
                 {
                     "name": "HTML",
@@ -109,10 +110,12 @@
             ],
             "mission" : "Actualiser la page Internet de Riding Cities de la façon suivante : Créer une nouvelle section, “Les membres fondateurs”, avec les noms et photos des créateurs de l’association. Modifier la section comprenant le bouton “Télécharger le planning de cours” pour ajouter un titre et deux boutons permettant de télécharger deux plannings de cours différents (un pour les enfants et un pour les adultes).",
             "info-code": "Il n’y a que du code HTML à développer. Le code existant contient des lignes qui pourront être réutilisées et adaptées pour obtenir le résultat de la maquette. Le code CSS est déjà en place : je devais copier-coller les classes CSS déjà écrites pour ordonner et mettre en forme les éléments comme sur la maquette.",
-            "link": "https://github.com/LoicTallec/Riding-City"
+            "github": "https://github.com/LoicTallec/Riding-Cities",
+            "url": "https://loictallec.github.io/Riding-Cities/"
         },
         {
             "id": "2",
+            "type": "dev",
             "skills" : [
                 {
                     "name": "HTML",
@@ -127,13 +130,18 @@
             ],
             "name": "Booki",
             "cover": "./src/assets/images/booki/booki.webp",
-            "picture": "",
+            "picture": [
+                "./src/assets/images/booki/booki.webp",
+                "./src/assets/images/booki/bookitwo.webp"
+            ],
             "mission":"",
             "info-code":"",
-            "link":"https://github.com/LoicTallec/Booki"
+            "github":"https://github.com/LoicTallec/Booki",
+            "url":"https://loictallec.github.io/Booki/"
         },
         {
             "id": "3",
+            "type": "dev",
             "skills" : [
                 {
                     "name": "HTML",
@@ -148,13 +156,20 @@
             ],
             "name": "Web Agency",
             "cover": "./src/assets/images/webagency/webagency.webp",
-            "picture": "",
+            "picture": [
+                "./src/assets/images/webagency/webagency.webp",
+                "./src/assets/images/webagency/webagencytwo.webp",
+                "./src/assets/images/webagency/webagencythree.webp",
+                "./src/assets/images/webagency/webagencyfour.webp"
+            ],
             "mission":"",
             "info-code":"",
-            "link":"https://github.com/LoicTallec/Webagency"
+            "github":"https://github.com/LoicTallec/Webagency",
+            "url":"https://loictallec.github.io/WebAgency/"
         },
         {
             "id": "4",
+            "type": "dev",
             "skills" : [
                 {
                     "name": "HTML",
@@ -167,15 +182,20 @@
                     "cat": "brands"
                 } 
             ],
-            "name": "ohMyFood",
+            "name": "OhMyFood",
             "cover": "./src/assets/images/ohmyfood/ohmyfood.webp",
-            "picture": "",
+            "picture": [
+                "./src/assets/images/ohmyfood/ohmyfood.webp",
+                "./src/assets/images/ohmyfood/ohmyfoodtwo.webp"
+            ],
             "mission":"",
             "info-code":"",
-            "link":"https://github.com/LoicTallec/OhMyFood"
+            "github":"https://github.com/LoicTallec/OhMyFood",
+            "url":"https://loictallec.github.io/ohmyfood/"
         },
         {
             "id": "5",
+            "type": "dev",
             "skills" : [
                 {
                     "name": "HTML",
@@ -193,15 +213,19 @@
                     "cat": "brands"
                 }
             ],
-            "name": "print it",
+            "name": "Print It",
             "cover": "./src/assets/images/printit/printit.webp",
-            "picture": "",
+            "picture": [
+                "./src/assets/images/printit/printit.webp"
+            ],
             "mission":"",
             "info-code":"",
-            "link":"https://github.com/LoicTallec/Print-It"
+            "github":"https://github.com/LoicTallec/Print-It",
+            "url":"https://loictallec.github.io/print-it/"
         },
         {
             "id": "6",
+            "type": "dev",
             "skills" : [
                 {
                     "name": "HTML",
@@ -221,13 +245,20 @@
             ],
             "name": "Sophie Bluel Architecte",
             "cover": "./src/assets/images/sophiebluel/sophiebluel.webp",
-            "picture": "",
+            "picture": [
+                "./src/assets/images/sophiebluel/sophiebluel.webp",
+                "./src/assets/images/sophiebluel/sophieblueltwo.webp",
+                "./src/assets/images/sophiebluel/sophiebluelthree.webp",
+                "./src/assets/images/sophiebluel/sophiebluelfour.webp"
+            ],
             "mission":"",
             "info-code":"",
-            "link":"https://github.com/LoicTallec/Kasa"
+            "github":"https://github.com/LoicTallec/sophie-buel",
+            "url":"https://loictallec.github.io/sophie-buel/"
         },
         {
             "id": "7",
+            "type": "dev",
             "skills" : [
                 {
                     "name": "HTML",
@@ -252,13 +283,19 @@
             ],
             "name": "Kasa",
             "cover": "./src/assets/images/kasa/kasa.webp",
-            "picture": "",
+            "picture": [
+                "./src/assets/images/kasa/kasa.webp",
+                "./src/assets/images/kasa/kasatwo.webp",
+                "./src/assets/images/kasa/kasathree.webp"
+            ],
             "mission":"",
             "info-code":"",
-            "link":"https://github.com/LoicTallec/Kasa"
+            "github":"https://github.com/LoicTallec/Kasa",
+            "url":"https://loictallec.github.io/Kasa/"
         },
         {
             "id": "8",
+            "type": "dev",
             "skills" : [
                 {
                     "name": "SEO",
@@ -273,13 +310,17 @@
             ],
             "name": "Nina Carducci",
             "cover": "./src/assets/images/ninacarducci/nina-carducci.webp",
-            "picture": "",
+            "picture": [
+                "./src/assets/images/ninacarducci/nina-carducci.webp"
+            ],
             "mission":"",
             "info-code":"",
-            "link":"https://github.com/LoicTallec/Sophie-Bluel"
+            "github":"https://github.com/LoicTallec/Nina-Carducci",
+            "url":"https://loictallec.github.io/Nina-Carducci/"
         },
         {
             "id": "9",
+            "type": "dev",
             "skills" : [
                 {
                     "name": "JavaScript",
@@ -294,13 +335,17 @@
             ],
             "name": "724 Event",
             "cover": "./src/assets/images/724event/724-event.webp",
-            "picture": "",
+            "picture": [
+                "./src/assets/images/724event/724-event.webp"
+            ],
             "mission":"",
             "info-code":"",
-            "link":"https://github.com/LoicTallec/724-Event"
+            "github":"https://github.com/LoicTallec/724-Event",
+            "url":"https://loictallec.github.io/724-Event/"
         },
         {
             "id": "10",
+            "type": "dev",
             "skills" : [
                 {
                     "name": "HTML",
@@ -328,7 +373,8 @@
             "picture": "",
             "mission":"",
             "info-code":"",
-            "link":"https://github.com/LoicTallec/Argent-Bank"
+            "github":"https://github.com/LoicTallec/Argent-Bank",
+            "url":"https://loictallec.github.io/Argent-Bank/"
         }
     ]
 }

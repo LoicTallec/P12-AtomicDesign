@@ -2,12 +2,10 @@ import React, { useState } from 'react';
 import './modale.css';
 import Icon from '../../atoms/icon/icon';
 import Image from '../../atoms/image/image';
-import leftArrow from '../../../assets/images/arrow_left.png';
-import rightArrow from '../../../assets/images/arrow_right.png';
+import Button from '../../atoms/button/button';
 const Modale = ({ projet, onClose }) => {
-  
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
+  
   const nextSlide = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % projet.picture.length);
   };
@@ -18,9 +16,9 @@ const Modale = ({ projet, onClose }) => {
 
   return (
     <section className="modal">
-      <button className="close-button" onClick={onClose}>X</button>
+      <Button className="close-button" onClick={onClose} content={'X'} />
       
-      <figure className="modale-slide">
+      <figure className="modale-slide arrow-container">
         <Image
           className='modale-image'
           url={projet.picture[currentImageIndex]}
@@ -28,18 +26,20 @@ const Modale = ({ projet, onClose }) => {
         />
         <h2>{projet.name}</h2>
         <figcaption className="modale-arrow">
-          <img
-            src={leftArrow}
-            alt="Left Arrow"
-            className="arrow"
-            onClick={prevSlide}
-          />
-          <img
-            src={rightArrow}
-            alt="Right Arrow"
-            className="arrow"
-            onClick={nextSlide}
-          />
+          {projet.picture.length > 1 && (
+            <>
+              <Button
+                className="arrow-left arrow"
+                onClick={prevSlide}
+                content={'<'}
+              />
+              <Button
+                className="arrow-right arrow"
+                onClick={nextSlide}
+                content={'>'}
+              />
+            </>
+          )}
         </figcaption>
       </figure>
       <figure>

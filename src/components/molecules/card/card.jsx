@@ -4,7 +4,7 @@ import Image from '../../atoms/image/image.jsx';
 
 const Card = ({ name, picture, onClick }) => {
     return (
-        <figure onClick={onClick}>
+        <figure className="card" onClick={onClick}>
             <Image url={picture} alt={name} />
             <figcaption>{name}</figcaption>
         </figure>
