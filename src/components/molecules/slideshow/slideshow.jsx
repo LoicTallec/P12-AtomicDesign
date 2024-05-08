@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Card from '../card/card';
 import './slideshow.css';
 import { projets } from '../../../assets/data.json';
@@ -17,6 +17,14 @@ const Slideshow = () => {
     setIsModalOpen(false);
     setSelectedProjet(null);
   };
+
+  useEffect(() => {
+    if (isModalOpen) {
+        document.body.classList.add('modal-open');
+    } else {
+        document.body.classList.remove('modal-open');
+    }
+  }, [isModalOpen]);
 
   return (
     <div className={`slideshow ${isModalOpen ? 'modal-open' : ''}`}>

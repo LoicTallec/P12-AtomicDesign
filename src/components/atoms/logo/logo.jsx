@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from '../../../assets/images/visuart.webp';
 import './logo.css';
 
-const Logo = () => {
+const Logo = ({ logo, alt, className }) => {
     return (
         <figure className="logo">
-            <img  src={logo} alt="logo visuart" />
+            <img src={logo} className={className} alt={alt} />
         </figure>
     )
 }

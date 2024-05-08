@@ -40,7 +40,7 @@
             "cat": "brands"
         },
         {
-            "name": "CSS",
+            "name": "SASS / CSS",
             "icon": "css3-alt",
             "cat": "brands"
         },
@@ -108,8 +108,8 @@
                 "./src/assets/images/ridingcities/ridingcities.webp",
                 "./src/assets/images/ridingcities/ridingcitiestwo.webp"
             ],
-            "mission" : "Actualiser la page Internet de Riding Cities de la façon suivante : Créer une nouvelle section, “Les membres fondateurs”, avec les noms et photos des créateurs de l’association. Modifier la section comprenant le bouton “Télécharger le planning de cours” pour ajouter un titre et deux boutons permettant de télécharger deux plannings de cours différents (un pour les enfants et un pour les adultes).",
-            "info-code": "Il n’y a que du code HTML à développer. Le code existant contient des lignes qui pourront être réutilisées et adaptées pour obtenir le résultat de la maquette. Le code CSS est déjà en place : je devais copier-coller les classes CSS déjà écrites pour ordonner et mettre en forme les éléments comme sur la maquette.",
+            "mission" : "Mission : J'ai actualisé la page internet de Riding Cities en ajoutant une nouvelle section “Les membres fondateurs”, avec les noms et photos des créateurs de l’association. Modifier la section comprenant le bouton “Télécharger le planning de cours” pour ajouter un titre et deux boutons permettant de télécharger deux plannings de cours différents (un pour les enfants et un pour les adultes).",
+            "info": "Info : Il n’y a que du code HTML à développer. Le code existant contient des lignes qui pourront être réutilisées et adaptées pour obtenir le résultat de la maquette. Le code CSS est déjà en place : j'ai copier-coller les classes CSS déjà écrites pour ordonner et mettre en forme les éléments comme sur la maquette.",
             "github": "https://github.com/LoicTallec/Riding-Cities",
             "url": "https://loictallec.github.io/Riding-Cities/"
         },
@@ -134,8 +134,8 @@
                 "./src/assets/images/booki/booki.webp",
                 "./src/assets/images/booki/bookitwo.webp"
             ],
-            "mission":"",
-            "info-code":"",
+            "mission":"Mission : J'ai créer la page web d'une agence de voyage en HTML/CSS en respectant les maquettes fournies.",
+            "info":"Info : J'ai créer tout le code, seul les images et les textes lié a celle-ci m'ont été fournies. Le site est responsive et fonctionne sur toutes les tailles d'écrans. Les maquettes d'origines sont toute respecter",
             "github":"https://github.com/LoicTallec/Booki",
             "url":"https://loictallec.github.io/Booki/"
         },
@@ -162,8 +162,8 @@
                 "./src/assets/images/webagency/webagencythree.webp",
                 "./src/assets/images/webagency/webagencyfour.webp"
             ],
-            "mission":"",
-            "info-code":"",
+            "mission":"Mission : Créer un site web pour une agence de web design en HTML/CSS.",
+            "info":"Info : J'ai créer tout le code, seul les images et les textes lié a celle-ci m'ont été fournies. Le site est responsive et fonctionne sur toutes les tailles d'écrans. Les maquettes d'origines sont toute respecter",
             "github":"https://github.com/LoicTallec/Webagency",
             "url":"https://loictallec.github.io/WebAgency/"
         },
@@ -177,7 +177,7 @@
                     "cat": "brands"
                 },
                 {
-                    "name": "CSS",
+                    "name": "SASS",
                     "icon": "css3-alt",
                     "cat": "brands"
                 } 
@@ -188,8 +188,8 @@
                 "./src/assets/images/ohmyfood/ohmyfood.webp",
                 "./src/assets/images/ohmyfood/ohmyfoodtwo.webp"
             ],
-            "mission":"",
-            "info-code":"",
+            "mission":"Mission : Améliorer l'interface d'un site mobile avec des animations CSS",
+            "info":"Info : J'ai créer tout le code, seul les images et les textes lié a celle-ci m'ont été fournies. Le site est responsive et fonctionne sur toutes les tailles d'écrans. Les maquettes d'origines sont toute respecter.",
             "github":"https://github.com/LoicTallec/OhMyFood",
             "url":"https://loictallec.github.io/ohmyfood/"
         },
@@ -218,8 +218,8 @@
             "picture": [
                 "./src/assets/images/printit/printit.webp"
             ],
-            "mission":"",
-            "info-code":"",
+            "mission":"Mission : Premiers pas sur le langage JavaScript",
+            "info":"Info : je devais actualiser le code déjà present pour ajouter un carousel fonctionnel en JavaScript. J'ai écris la logique qui permet a l'image de bouclé a l'infini et de revenir au début, les points lié aux images sont toujours dans le bon ordre et son cliquable.",
             "github":"https://github.com/LoicTallec/Print-It",
             "url":"https://loictallec.github.io/print-it/"
         },
@@ -251,10 +251,9 @@
                 "./src/assets/images/sophiebluel/sophiebluelthree.webp",
                 "./src/assets/images/sophiebluel/sophiebluelfour.webp"
             ],
-            "mission":"",
-            "info-code":"",
-            "github":"https://github.com/LoicTallec/sophie-buel",
-            "url":"https://loictallec.github.io/sophie-buel/"
+            "mission":"Mission : Créer une page web dynamique avec JavaScript.",
+            "info":"Info : J'ai créer tout le code & la logique lié a JavaScript (exepter le back-end), seul les images et les textes lié a celle-ci m'ont été fournies. Le site est responsive et fonctionne sur toutes les tailles d'écrans. Les maquettes d'origines sont toute respecter. Vous pouvez vous connecter/déconnecter, ajouter ou supprimer des images (En local seulement)",
+            "github":"https://github.com/LoicTallec/sophie-buel"
         },
         {
             "id": "7",
@@ -288,8 +287,8 @@
                 "./src/assets/images/kasa/kasatwo.webp",
                 "./src/assets/images/kasa/kasathree.webp"
             ],
-            "mission":"",
-            "info-code":"",
+            "mission":"Mission : Créer une application web de location immobilière avec React.",
+            "info":"Info : J'ai créer tout le code et les composents lié a React. Le site est responsive et fonctionne sur toutes les tailles d'écrans. Les maquettes d'origines sont toute respecter.",
             "github":"https://github.com/LoicTallec/Kasa",
             "url":"https://loictallec.github.io/Kasa/"
         },
@@ -313,8 +312,8 @@
             "picture": [
                 "./src/assets/images/ninacarducci/nina-carducci.webp"
             ],
-            "mission":"",
-            "info-code":"",
+            "mission":"Mission : Optimiser le référencement et les performances d'un site d'une photographe.",
+            "info":"Info : Le code été déjà present, j'ai optimiser le référencement du site pour avec les meta-données. Les images on toutes été optimiser en les convertissant en WEBP (format adapter au web)(97% de réduction de la taille en Mo des fichiers) les fichiers CSS sont minifier. J'ai utiliser Lighthouse et Wave (plug-in du navigateur)",
             "github":"https://github.com/LoicTallec/Nina-Carducci",
             "url":"https://loictallec.github.io/Nina-Carducci/"
         },
@@ -338,8 +337,8 @@
             "picture": [
                 "./src/assets/images/724event/724-event.webp"
             ],
-            "mission":"",
-            "info-code":"",
+            "mission":"Mission : Débugger le site d'une agence d'événementiel",
+            "info":"Info : Le code est déjà présent, j'ai procéder à des test fonctionnels pour trouver et corriger les bug lié au code",
             "github":"https://github.com/LoicTallec/724-Event",
             "url":"https://loictallec.github.io/724-Event/"
         },
@@ -370,9 +369,16 @@
             ],
             "name": "Argent Bank",
             "cover": "./src/assets/images/argentbank/argent-bank.webp",
-            "picture": "",
-            "mission":"",
-            "info-code":"",
+            "picture": [
+                "./src/assets/images/argentbank/argent-bank.webp",
+                "./src/assets/images/argentbank/argent-banktwo.webp",
+                "./src/assets/images/argentbank/argent-bankthree.webp",
+                "./src/assets/images/argentbank/argent-bankfour.webp",
+                "./src/assets/images/argentbank/argent-bankfive.webp",
+                "./src/assets/images/argentbank/argent-banksix.webp"
+            ],
+            "mission":"Mission : Implémenter le front-end d'une application bancaire avec React",
+            "info":"Info : J'ai créer tout les composent lié à React. Le site est responsive et fonctionne sur toutes les tailles d'écrans. Les maquettes d'origines sont toute respecter. J'ai aussi implémenter Redux pour gérer les connexions/déconnexions de l'utilisateur ainsi que le changement de pseudo lié au compte.",
             "github":"https://github.com/LoicTallec/Argent-Bank",
             "url":"https://loictallec.github.io/Argent-Bank/"
         }
