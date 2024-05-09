@@ -25,7 +25,43 @@ img {
   max-width: 100%;
 }
 
+.fa-html5 {
+  color: #E44D26;
+}
 
+.fa-css3-alt {
+  color: #1572B6;
+}
 
+.fa-js {
+  color: #F0DB4F;
+}
 
+.fa-react {
+  color: #61DAFB;
+}
+
+.fa-searchengin {
+  color: #00b427;
+}
+
+.fa-jet-fighter-up {
+  color: #3ab49a;
+}
+
+.fa-image {
+  color: #394e8a;
+}
+
+.fa-images {
+  color: #ff780a;
+}
+
+.fa-photo-film {
+  color: #9008ff;
+}
+
+.fa-pen {
+  color: #b94a00;
+}
 

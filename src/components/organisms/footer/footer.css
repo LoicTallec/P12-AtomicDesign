@@ -1,0 +1,28 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 40px;
+    background-color: rgb(44, 117, 116);
+    color: #fff;
+
+    a {
+        color: #fff;
+
+        .fa-linkedin {
+            color: #00a6ff;
+        }
+
+        .fa-deviantart {
+            color: #00d123;
+        }
+
+        .fa-github {
+            color: #000;
+        }
+    }
+}

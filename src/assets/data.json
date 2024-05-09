@@ -19,7 +19,7 @@
         {
             "id": "3",
             "content": "Contact",
-            "url": "#contact"
+            "url": "mailto:visuart17@gmail.com"
         }
     ],
 
@@ -32,6 +32,27 @@
         "picture": "./src/assets/images/me.webp",
         "about": "Qui suis-je ?"
     },
+
+    "icons": [
+        {
+            "name": "Github",
+            "icon": "github",
+            "url": "https://github.com/LoicTallec",
+            "cat": "brands"
+        },
+        {
+            "name": "Linkedin",
+            "icon": "linkedin",
+            "url": "https://www.linkedin.com/in/loictallec",
+            "cat": "brands"
+        },
+        {
+            "name": "DevientArt",
+            "icon": "deviantart",
+            "url": "https://www.deviantart.com/valdoxan17",
+            "cat": "brands"
+        }
+    ],
 
     "skills": [
         {
@@ -103,10 +124,10 @@
                 } 
             ],
             "name": "Riding Cities",
-            "cover": "./src/assets/images/ridingcities/ridingcities.webp",
+            "cover": "./src/assets/images/dev/ridingcities/ridingcities.webp",
             "picture": [
-                "./src/assets/images/ridingcities/ridingcities.webp",
-                "./src/assets/images/ridingcities/ridingcitiestwo.webp"
+                "./src/assets/images/dev/ridingcities/ridingcities.webp",
+                "./src/assets/images/dev/ridingcities/ridingcitiestwo.webp"
             ],
             "mission" : "Mission : J'ai actualisé la page internet de Riding Cities en ajoutant une nouvelle section “Les membres fondateurs”, avec les noms et photos des créateurs de l’association. Modifier la section comprenant le bouton “Télécharger le planning de cours” pour ajouter un titre et deux boutons permettant de télécharger deux plannings de cours différents (un pour les enfants et un pour les adultes).",
             "info": "Info : Il n’y a que du code HTML à développer. Le code existant contient des lignes qui pourront être réutilisées et adaptées pour obtenir le résultat de la maquette. Le code CSS est déjà en place : j'ai copier-coller les classes CSS déjà écrites pour ordonner et mettre en forme les éléments comme sur la maquette.",
@@ -129,10 +150,10 @@
                 } 
             ],
             "name": "Booki",
-            "cover": "./src/assets/images/booki/booki.webp",
+            "cover": "./src/assets/images/dev/booki/booki.webp",
             "picture": [
-                "./src/assets/images/booki/booki.webp",
-                "./src/assets/images/booki/bookitwo.webp"
+                "./src/assets/images/dev/booki/booki.webp",
+                "./src/assets/images/dev/booki/bookitwo.webp"
             ],
             "mission":"Mission : J'ai créer la page web d'une agence de voyage en HTML/CSS en respectant les maquettes fournies.",
             "info":"Info : J'ai créer tout le code, seul les images et les textes lié a celle-ci m'ont été fournies. Le site est responsive et fonctionne sur toutes les tailles d'écrans. Les maquettes d'origines sont toute respecter",
@@ -155,12 +176,12 @@
                 } 
             ],
             "name": "Web Agency",
-            "cover": "./src/assets/images/webagency/webagency.webp",
+            "cover": "./src/assets/images/dev/webagency/webagency.webp",
             "picture": [
-                "./src/assets/images/webagency/webagency.webp",
-                "./src/assets/images/webagency/webagencytwo.webp",
-                "./src/assets/images/webagency/webagencythree.webp",
-                "./src/assets/images/webagency/webagencyfour.webp"
+                "./src/assets/images/dev/webagency/webagency.webp",
+                "./src/assets/images/dev/webagency/webagencytwo.webp",
+                "./src/assets/images/dev/webagency/webagencythree.webp",
+                "./src/assets/images/dev/webagency/webagencyfour.webp"
             ],
             "mission":"Mission : Créer un site web pour une agence de web design en HTML/CSS.",
             "info":"Info : J'ai créer tout le code, seul les images et les textes lié a celle-ci m'ont été fournies. Le site est responsive et fonctionne sur toutes les tailles d'écrans. Les maquettes d'origines sont toute respecter",
@@ -183,10 +204,10 @@
                 } 
             ],
             "name": "OhMyFood",
-            "cover": "./src/assets/images/ohmyfood/ohmyfood.webp",
+            "cover": "./src/assets/images/dev/ohmyfood/ohmyfood.webp",
             "picture": [
-                "./src/assets/images/ohmyfood/ohmyfood.webp",
-                "./src/assets/images/ohmyfood/ohmyfoodtwo.webp"
+                "./src/assets/images/dev/ohmyfood/ohmyfood.webp",
+                "./src/assets/images/dev/ohmyfood/ohmyfoodtwo.webp"
             ],
             "mission":"Mission : Améliorer l'interface d'un site mobile avec des animations CSS",
             "info":"Info : J'ai créer tout le code, seul les images et les textes lié a celle-ci m'ont été fournies. Le site est responsive et fonctionne sur toutes les tailles d'écrans. Les maquettes d'origines sont toute respecter.",
@@ -214,9 +235,9 @@
                 }
             ],
             "name": "Print It",
-            "cover": "./src/assets/images/printit/printit.webp",
+            "cover": "./src/assets/images/dev/printit/printit.webp",
             "picture": [
-                "./src/assets/images/printit/printit.webp"
+                "./src/assets/images/dev/printit/printit.webp"
             ],
             "mission":"Mission : Premiers pas sur le langage JavaScript",
             "info":"Info : je devais actualiser le code déjà present pour ajouter un carousel fonctionnel en JavaScript. J'ai écris la logique qui permet a l'image de bouclé a l'infini et de revenir au début, les points lié aux images sont toujours dans le bon ordre et son cliquable.",
@@ -244,12 +265,12 @@
                 }
             ],
             "name": "Sophie Bluel Architecte",
-            "cover": "./src/assets/images/sophiebluel/sophiebluel.webp",
+            "cover": "./src/assets/images/dev/sophiebluel/sophiebluel.webp",
             "picture": [
-                "./src/assets/images/sophiebluel/sophiebluel.webp",
-                "./src/assets/images/sophiebluel/sophieblueltwo.webp",
-                "./src/assets/images/sophiebluel/sophiebluelthree.webp",
-                "./src/assets/images/sophiebluel/sophiebluelfour.webp"
+                "./src/assets/images/dev/sophiebluel/sophiebluel.webp",
+                "./src/assets/images/dev/sophiebluel/sophieblueltwo.webp",
+                "./src/assets/images/dev/sophiebluel/sophiebluelthree.webp",
+                "./src/assets/images/dev/sophiebluel/sophiebluelfour.webp"
             ],
             "mission":"Mission : Créer une page web dynamique avec JavaScript.",
             "info":"Info : J'ai créer tout le code & la logique lié a JavaScript (exepter le back-end), seul les images et les textes lié a celle-ci m'ont été fournies. Le site est responsive et fonctionne sur toutes les tailles d'écrans. Les maquettes d'origines sont toute respecter. Vous pouvez vous connecter/déconnecter, ajouter ou supprimer des images (En local seulement)",
@@ -281,11 +302,11 @@
                 }
             ],
             "name": "Kasa",
-            "cover": "./src/assets/images/kasa/kasa.webp",
+            "cover": "./src/assets/images/dev/kasa/kasa.webp",
             "picture": [
-                "./src/assets/images/kasa/kasa.webp",
-                "./src/assets/images/kasa/kasatwo.webp",
-                "./src/assets/images/kasa/kasathree.webp"
+                "./src/assets/images/dev/kasa/kasa.webp",
+                "./src/assets/images/dev/kasa/kasatwo.webp",
+                "./src/assets/images/dev/kasa/kasathree.webp"
             ],
             "mission":"Mission : Créer une application web de location immobilière avec React.",
             "info":"Info : J'ai créer tout le code et les composents lié a React. Le site est responsive et fonctionne sur toutes les tailles d'écrans. Les maquettes d'origines sont toute respecter.",
@@ -308,9 +329,9 @@
                 }
             ],
             "name": "Nina Carducci",
-            "cover": "./src/assets/images/ninacarducci/nina-carducci.webp",
+            "cover": "./src/assets/images/dev/ninacarducci/nina-carducci.webp",
             "picture": [
-                "./src/assets/images/ninacarducci/nina-carducci.webp"
+                "./src/assets/images/dev/ninacarducci/nina-carducci.webp"
             ],
             "mission":"Mission : Optimiser le référencement et les performances d'un site d'une photographe.",
             "info":"Info : Le code été déjà present, j'ai optimiser le référencement du site pour avec les meta-données. Les images on toutes été optimiser en les convertissant en WEBP (format adapter au web)(97% de réduction de la taille en Mo des fichiers) les fichiers CSS sont minifier. J'ai utiliser Lighthouse et Wave (plug-in du navigateur)",
@@ -333,9 +354,9 @@
                 }
             ],
             "name": "724 Event",
-            "cover": "./src/assets/images/724event/724-event.webp",
+            "cover": "./src/assets/images/dev/724event/724-event.webp",
             "picture": [
-                "./src/assets/images/724event/724-event.webp"
+                "./src/assets/images/dev/724event/724-event.webp"
             ],
             "mission":"Mission : Débugger le site d'une agence d'événementiel",
             "info":"Info : Le code est déjà présent, j'ai procéder à des test fonctionnels pour trouver et corriger les bug lié au code",
@@ -368,19 +389,46 @@
                 }
             ],
             "name": "Argent Bank",
-            "cover": "./src/assets/images/argentbank/argent-bank.webp",
+            "cover": "./src/assets/images/dev/argentbank/argent-bank.webp",
             "picture": [
-                "./src/assets/images/argentbank/argent-bank.webp",
-                "./src/assets/images/argentbank/argent-banktwo.webp",
-                "./src/assets/images/argentbank/argent-bankthree.webp",
-                "./src/assets/images/argentbank/argent-bankfour.webp",
-                "./src/assets/images/argentbank/argent-bankfive.webp",
-                "./src/assets/images/argentbank/argent-banksix.webp"
+                "./src/assets/images/dev/argentbank/argent-bank.webp",
+                "./src/assets/images/dev/argentbank/argent-banktwo.webp",
+                "./src/assets/images/dev/argentbank/argent-bankthree.webp",
+                "./src/assets/images/dev/argentbank/argent-bankfour.webp",
+                "./src/assets/images/dev/argentbank/argent-bankfive.webp",
+                "./src/assets/images/dev/argentbank/argent-banksix.webp"
             ],
             "mission":"Mission : Implémenter le front-end d'une application bancaire avec React",
             "info":"Info : J'ai créer tout les composent lié à React. Le site est responsive et fonctionne sur toutes les tailles d'écrans. Les maquettes d'origines sont toute respecter. J'ai aussi implémenter Redux pour gérer les connexions/déconnexions de l'utilisateur ainsi que le changement de pseudo lié au compte.",
             "github":"https://github.com/LoicTallec/Argent-Bank",
             "url":"https://loictallec.github.io/Argent-Bank/"
+        },
+        {
+            "id": "11",
+            "type": "graphisme",
+            "skills" : [
+                {
+                    "name": "Photoshop",
+                    "icon": "image",
+                    "cat": "solid"
+                },
+                {
+                    "name": "Illustrator",
+                    "icon": "images",
+                    "cat": "solid"
+                }
+            ],
+            "name": "Pompes Funèbres Brillouet",
+            "cover": "./src/assets/images/graphisme/pfb/pfb.webp",
+            "picture": [
+                "./src/assets/images/graphisme/pfb/pfb.webp",
+                "./src/assets/images/graphisme/pfb/pfbone.webp",
+                "./src/assets/images/graphisme/pfb/pfbtwo.webp"
+            ],
+            "mission": "Mission : Créer un logo & carte de visite pour l'entrprise Pompes Funèbres Brillouet",
+            "info": "Info : je n'ai pas développer leur site web",
+            "url": "https://pompesfunebresbrillouet.fr/"
         }
+
     ]
 }

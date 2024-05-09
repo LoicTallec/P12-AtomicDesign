@@ -68,19 +68,20 @@ const Modale = ({ projet, onClose }) => {
       <section className='modal-link'>
         <h3>Liens</h3>
         <figure>
-    {projet.url ? (
-        <Button 
-            className="url" 
-            onClick={() => window.open(projet.url, '_blank _noopener _noreferrer' )} 
-            content={'Voir le site'} 
-        />
-    ) : null}
-    
-    <Button 
-        className="url" 
-        onClick={() => window.open(projet.github, '_blank _noopener _noreferrer' )} 
-        content={'Voir le code'} 
-    />
+        {projet.url ? (
+          <Button
+            className="url"
+            onClick={() => window.open(projet.url, '_blank _noopener _noreferrer')}
+            content="Voir le site"
+          />
+        ) : null}
+        {projet.github ? (
+          <Button
+            className="url"
+            onClick={() => window.open(projet.github, '_blank _noopener _noreferrer')}
+            content="Voir le code"
+          />
+        ) : null}
 </figure>
       </section>
     </section>

@@ -5,10 +5,7 @@ import Skills from "../../molecules/skills/skills";
 const Worker = () => {
     return (
         <section>
-        <About
-
-        />
-
+        <About/>
         <Skills />
         </section>
     );
