@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Card from '../card/card';
 import './slideshow.css';
-import { projets } from '../../../assets/data.json';
+import data from '../../../assets/data.json';
 import Modale from '../modale/modale';
 
 const Slideshow = () => {
@@ -28,7 +28,7 @@ const Slideshow = () => {
 
   return (
     <div className={`slideshow ${isModalOpen ? 'modal-open' : ''}`}>
-      {projets.map((projet) => (
+      {data.projets.map((projet) => (
         <Card
           key={projet.id}
           name={projet.name}
